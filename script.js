@@ -365,7 +365,7 @@ function submitOrder() {
 • *Category:* ${capitalize(currentProduct.category)}
 • *Product Image:* ${currentProduct.image}
 
-📝 Please confirm my order. Thank you! 🙏`;
+📝 Please confirm my order. Thank you! `;
 
   const encodedMsg = encodeURIComponent(message);
   const waUrl = `https://wa.me/${WHATSAPP_NUMBER}?text=${encodedMsg}`;
