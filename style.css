@@ -273,7 +273,8 @@ ul { list-style: none; }
 }
 
 .hero-subtitle {
-  font-size: 1.1rem; color: var(--text-light);
+  font-size: 1.1rem; 
+  color: #2d2d2d;
   margin-bottom: 0.5rem;
   animation: fadeInDown 0.7s ease 0.15s both;
 }
@@ -293,7 +294,7 @@ ul { list-style: none; }
 }
 .stat { text-align: center; }
 .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--red); display: block; }
-.stat-label { font-size: 0.75rem; color: var(--text-light); font-weight: 500; }
+.stat-label { font-size: 0.75rem; color: #1a1a2e; font-weight: 500; }
 
 .hero-buttons {
   display: flex; gap: 1rem; flex-wrap: wrap;
