@@ -353,17 +353,17 @@ function submitOrder() {
     return;
   }
 
-  const message = `🙏 *New Order from ${CAFE_NAME}*
+  const message = `🛒 *New Order from ${CAFE_NAME}*
 
 👤 *Name:* ${name}
-📱 *Mobile Number:* ${mobile}
+📞 *Mobile Number:* ${mobile}
 📍 *Address:* ${address}
 
 🍽️ *Product Details:*
-• *Product Name:* ${currentProduct.name}
-• *Product Price:* ₹${currentProduct.price}
-• *Category:* ${capitalize(currentProduct.category)}
-• *Product Image:* ${currentProduct.image}
+🍚 *Product Name:* ${currentProduct.name}
+💵 *Product Price:* ₹${currentProduct.price}
+📇 *Category:* ${capitalize(currentProduct.category)}
+🔗 *Product Image:* ${currentProduct.image}
 
 📝 Please confirm my order. Thank you! `;
 
