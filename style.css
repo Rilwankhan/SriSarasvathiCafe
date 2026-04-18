@@ -275,13 +275,6 @@ ul { list-style: none; }
   background-clip: text;
 }
 
-.hero-subtitle {
-  font-size: 1.1rem; 
-  color: #daff00;
-  margin-bottom: 0.5rem;
-  animation: fadeInDown 0.7s ease 0.15s both;
-}
-
 .hero-tagline {
   font-size: 1.35rem; font-weight: 600;
   color: var(--text-mid);
