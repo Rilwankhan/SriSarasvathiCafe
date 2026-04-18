@@ -275,9 +275,10 @@ ul { list-style: none; }
   background-clip: text;
 }
 
+
 .hero-tagline {
   font-size: 1.35rem; font-weight: 600;
-  color: var(--text-mid);
+  color: yellow;
   margin-bottom: 2rem;
   animation: fadeInDown 0.7s ease 0.2s both;
 }
@@ -292,7 +293,7 @@ ul { list-style: none; }
 .stat-num { font-size: 1.5rem; font-weight: 800; color: var(--red); display: block; }
 .stat-label {
     font-size: 0.85rem;
-    color: #000000;
+    color: black;
     font-weight: 500;
 }
 
